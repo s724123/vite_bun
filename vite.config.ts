@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()ㄝtailwindcss(),],
+  plugins: [react(),tailwindcss(),],
   server: {
       port: 3000,           // 設定開發伺服器埠號
       open: true,           // 自動開啟瀏覽器
